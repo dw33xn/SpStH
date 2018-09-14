@@ -12,7 +12,7 @@ public class Test {
         ApplicationContext ac = new FileSystemXmlApplicationContext("web/WEB-INF/applicationContext.xml");
         Address ail = (AddressImpl)ac.getBean("address");
         AddresslistEntity al = new AddresslistEntity();
-        al.setName("kaka");
+        al.setName("xn");
         al.setPhone("123456123");
         ail.add(al);
     }
